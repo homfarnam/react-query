@@ -54,7 +54,7 @@ button:hover {
     color: #ffff57;
 }
 
-.buttons {
-    display: flex;
-    justify-content: space-evenly;
+button:disabled {
+    opacity: 0.2;
+    cursor: not-allowed;
 }
